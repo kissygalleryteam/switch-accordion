@@ -12,7 +12,7 @@
   
   ================ 参数说明 ===============
   
-``{
+{
       parElem: ".accordion_switch_list", // 默认值为accordion_switch_list，可以自己设定
       tabElem : ".accordion_switch_item",   // 单个元素
       defaultNum : 0,             // 默认显示第几个元素，从0开始
@@ -22,6 +22,6 @@
       duration : 4000,           // 自动切换的时间，只有设定autoSlide为true时生效
       type: 'hover',              // 事件类型：hover，click
       eventStop : true          // 鼠标hover时不切换，只在事件是hover时有效，当鼠标离开时会继续实现自动播放，默认为true
-  }``
+  }
 
   使用说明：使用时必须注明parElem、tabElem和最大宽度（largeWidth）
