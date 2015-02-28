@@ -1,0 +1,1 @@
+KISSY.config("requires",{"kg/switch-accordion/1.0.0/lib/main":["node","base"]});
