@@ -1,1 +1,1 @@
-KISSY.config("requires",{"kg/switch-accordion/1.0.0/lib/main":["node","base"]});
+KISSY.config("requires",{"kg/switch-accordion/1.0.0/index":["node","event","anim"],"kg/switch-accordion/1.0.0/lib/main":["node","base"]});

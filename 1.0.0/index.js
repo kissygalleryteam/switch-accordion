@@ -27,8 +27,13 @@
 
 */
 
-KISSY.add(function(S){
+KISSY.add(function(S, require){
 
+
+    var Node = require('node');
+    var Event = require('event');
+    var Anim = require('anim');
+    
     var $ = S.Node.all;
 
     var switchAccordion = function(conf){
@@ -245,8 +250,4 @@ KISSY.add(function(S){
     }
 
     return switchAccordion;
-},
-{
-    requires: ['node','event','anim']
-}
-)
+})
