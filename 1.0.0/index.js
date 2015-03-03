@@ -43,7 +43,7 @@ KISSY.add(function(S, require){
             parElem : conf.parElem || ".accordion_switch_list",   // 包含的元素
             tabElem : conf.tabElem || ".accordion_switch_item",   // 每个元素的类
             defaultNum : conf.defaultNum || 0,             // 默认显示第几个
-            largeWidth : conf.largeWidth,           // 最大宽度
+            largeWidth : parseInt(conf.largeWidth),           // 最大宽度
             timer : conf.timer || 0.3,                // 单个元素的动画时间
             autoSlide : conf.autoSlide || false,           // 自动切换
             duration : conf.duration || 4000,           // 自动切换的时间
