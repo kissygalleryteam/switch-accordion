@@ -54,6 +54,7 @@ KISSY.add(function(S, require){
         this.conf.tabNums = $(this.conf.tabElem).length;
         this.wid = parseInt(($(this.conf.parElem).width() - this.conf.largeWidth) / (+this.conf.tabNums - 1));
         this.interval = null;
+        this.init();
     }
 
     switchAccordion.prototype = {

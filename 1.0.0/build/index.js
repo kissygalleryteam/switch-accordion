@@ -26,6 +26,7 @@ KISSY.add('kg/switch-accordion/1.0.0/index',["node","event","anim"],function(S ,
         this.conf.tabNums = $(this.conf.tabElem).length;
         this.wid = parseInt(($(this.conf.parElem).width() - this.conf.largeWidth) / (+this.conf.tabNums - 1));
         this.interval = null;
+        this.init();
     }
 
     switchAccordion.prototype = {
