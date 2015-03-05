@@ -1,10 +1,11 @@
-KISSY.add('kg/switch-accordion/1.0.0/index',["node","event","anim"],function(S ,require, exports, module) {
+KISSY.add('kg/switch-accordion/1.0.0/index',["node","event","anim","./index.css"],function(S ,require, exports, module) {
 
 
 
     var Node = require('node');
     var Event = require('event');
     var Anim = require('anim');
+    require('./index.css');
     
     var $ = S.Node.all;
 

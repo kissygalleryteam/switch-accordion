@@ -3,7 +3,8 @@ KISSY.config('requires',{
     "kg/switch-accordion/1.0.0/index": [
         "node",
         "event",
-        "anim"
+        "anim",
+        "./index.css"
     ],
     "kg/switch-accordion/1.0.0/lib/main": [
         "node",
