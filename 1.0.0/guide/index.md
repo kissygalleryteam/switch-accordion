@@ -27,35 +27,36 @@ SwitchAccordion可以实现图片的手风琴切换效果。
 ## API说明
 
 ### 基本参数
-* parElem * （string）
+*parElem* （string）
 	包含所有切换节点的父节点，默认值：".accordion_switch_list"
       
-* tabElem *（string）
+*tabElem*（string）
 	单个切换节点，默认值：".accordion_switch_item"
 
-* defaultNum * （number）
+*defaultNum* （number）
 	默认显示第几个元素，默认值是0
 
-* largeWidth * （number，必填项）
+*largeWidth* （number，必填项）
 	设定节点展开时的宽度，为必填项
 
-* timer * 
+*timer* 
 	元素从收起状态到展开状态的切换时间，默认为0.3
 
-* autoSlide *
+*autoSlide*
 	自动切换，默认为false，为true时实现自动切换
 
-* duration *
+*duration*
       自动切换的时间，只有设定autoSlide为true时生效，默认值为4000
 
-* type *   
+*type*   
 	切换的事件类型：hover、click，默认为hover
 
-* eventStop * 
+*eventStop* 
 	鼠标hover时不切换，只在事件是hover时有效，当鼠标离开时会继续实现自动播放，默认为true
+
 ### 方法
 
-* go(num) * 
+*go(num)* 
 	跳转到某个节点，从0开始。
 
 

@@ -1,1 +1,1 @@
-.accordion_item_big{opacity:0;filter:alpha(opacity=0);position:absolute}.accordion_item_small{opacity:1;filter:alpha(opacity=1);position:absolute}.item_active .accordion_item_big{opacity:1;filter:alpha(opacity=1)}.item_active .accordion_item_small{opacity:0;filter:alpha(opacity=0)}
+.accordion_switch_list{position:relative;overflow:hidden}.accordion_item_big{opacity:0;position:absolute}.accordion_item_small{opacity:1;position:absolute}.item_active .accordion_item_big{opacity:1}.item_active .accordion_item_small{opacity:0}
