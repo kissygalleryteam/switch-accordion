@@ -30,7 +30,7 @@
  }
 ```
 
-#### 注意：使用时必须注明parElem、tabElem和最大宽度（largeWidth），如果是双图片切换的话需要在图片中加入，"accordion_item_big"和"accordion_item_small"，其中accordion_item_big表示的是展开时的图片，accordion_item_small是收起时的图片。
+#### 注意：使用时必须注明parElem、tabElem和最大宽度（largeWidth），如果是双图片切换的话需要在图片的class中分别加入"accordion_item_big"和"accordion_item_small"，其中accordion_item_big表示的是展开时的图片，accordion_item_small是收起时的图片。
 
 ## API:
 
